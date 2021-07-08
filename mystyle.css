@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: lightpink;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 10%;
+  display: block;
+  text-align: center;
+}
+
+.board {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-style: solid;
+  border-color: darkorchid;
+  width: 40%;
+}
+
+.square {
+  text-align: center;
+  border-style: solid;
+  border-color: darkorchid;
+  cursor: pointer;
+  height: 50px;
+  padding: 50px;
+  user-select: none;
+}
+
+.btn {
+  margin: 0 auto;
+  margin-top: 20px;
+}
